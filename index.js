@@ -5,7 +5,7 @@
  * LICENSE file here: https://github.com/joeferraro/react-native-cookies/blob/master/LICENSE.md.
  */
 
-import { NativeModules, Platform } from 'react-native';
+const { NativeModules, Platform } = require('react-native');
 const invariant = require('invariant');
 const RNCookieManagerIOS = NativeModules.RNCookieManagerIOS;
 const RNCookieManagerAndroid = NativeModules.RNCookieManagerAndroid;
